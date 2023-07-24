@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../Image/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <title>Raffle</title>
+  </head>
+  <header>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="../pages/about.html">About Us</a>
+      <a href="../pages/contact.html">Contact</a>
+      <a href="../pages/information.html">Information</a>
+      <a href="../pages/benefits.html">Benefits</a>
+      <a href="#">Raffle</a>
+    </nav>
+    <img class="logo" src="../Image/logo.png" alt="logo" />
+  </header>
+  <body>
+    <main>
+      <section id="sectionH">
+        <h1>SNOWY CREAM</h1>
+        <h4>
+          You can collaborate so that we wxpanded the business and by doing so
+          you will be participating in the raffle for a box of traditional ice
+          creams.
+        </h4>
+      </section>
+
+      <div id="divGeneralRaffle">
+        <div id="maps">
+          <h5>Our location is located at:</h5>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.0441436634!2d-118.74138250108493!3d34.02060846043397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1689426085857!5m2!1ses-419!2sar"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
+        </div>
+
+        <div id="form">
+          <form action="../pages/show_data.html">
+            <fieldset class="Firts-Name">
+              <label class="Firts-name" for="Firts-Name">First Name :</label>
+              <input
+                class="Firts-name"
+                type="text"
+                id="Firts-Name"
+                name="First Name"
+                placeholder="Guadalupe"
+              />
+            </fieldset>
+
+            <fieldset>
+              <label class="Last-Name" for="Last-Name">Last Name :</label>
+              <input
+                class="Last-Name"
+                type="text"
+                id="Last-Name"
+                name="Last-Name"
+                placeholder="Alvarado"
+              />
+            </fieldset>
+
+            <fieldset>
+              <label for="Choose">Choose Meet or Zoom</label>
+              <select name="Choose" id="Choose">
+                <option value="#">selected</option>
+                <option>Meet</option>
+                <option>Zoom</option>
+              </select>
+            </fieldset>
+
+            <fieldset>
+              <label for="Date">Choose Date</label>
+              <select name="Date" id="Date">
+                <option value="#">selected</option>
+                <option>20/10</option>
+                <option>27/10</option>
+                <option>21/11</option>
+              </select>
+            </fieldset>
+
+            <fieldset>
+              <legend>Payment Option :</legend>
+
+              <label for="Cash">Cash</label>
+              <input type="radio" id="Cash" name="Payment" value="Cash" />
+
+              <label for="Debit-Card">Debit Card</label>
+              <input
+                type="radio"
+                id="Debit-Card"
+                name="Payment"
+                value="Debit-Card"
+              />
+
+              <label for="Credit-Card">Credit Card</label>
+              <input
+                type="radio"
+                id="Credit-Card"
+                name="Payment"
+                value="Credit-Card"
+              />
+            </fieldset>
+
+            <fieldset>
+              <label for="Message">Message (Optional)</label>
+              <textarea
+              style="resize:none"
+                name="Message"
+                id="Message"
+                cols="40"
+                rows="5"
+              ></textarea>
+            </fieldset>
+
+            <fieldset>
+              <input type="checkbox" name="Terms" id="Terms" value="Terms" />
+              <label for="Terms">I accept terms and conditions...</label>
+              <input type="submit" value="Send" />
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <h4>Create by: Guadalupe Daiana Alvarado - 2023</h4>
+    </footer>
+  </body>
+</html>
